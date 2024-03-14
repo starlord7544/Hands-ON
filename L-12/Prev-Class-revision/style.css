@@ -1,0 +1,10 @@
+h1 {
+    border: 1px solid ;
+    color: purple;
+    padding: 20px;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
