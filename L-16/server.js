@@ -10,7 +10,7 @@ const DATABASE_URL = "mongodb+srv://<USERNAME>:<password>@cluster0.cup2spz.mongo
 const DATABASE_USERNAME = "starlord7544"
 const DATABASE_PASSWORD = "starlord7544"
 
-const db_url = DATABASE_URL.replace('<USERNAME>', DATABASE_USERNAME).replace('<PASSWORD>', DATABASE_PASSWORD)
+const db_url = DATABASE_URL.replace('<USERNAME>', DATABASE_USERNAME).replace('<password>', DATABASE_PASSWORD)
 mongoose.connect(db_url).then((con)=>{
     console.log('-------------Connected to Database------------');
 });
